@@ -1,14 +1,21 @@
-#root{
-    display: grid;
-    grid-template-columns: 30rem auto;
+.header{
+    width: 100%;
+    height: 4rem ;
     
-    }
-    .nav-Bar{
-    grid-column: 0/0;
-    grid-row: 0/0;
-    
-    }
-    .proyect{
-    grid-column: 1/0;
-    grid-row: 1/0;
-    }
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header h2{
+    font-size: 2rem;
+}
+
+.header div{
+    background-color: black;
+    color: wheat;
+    padding: 0.5rem 1rem;
+     border-radius:3px;
+
+}
