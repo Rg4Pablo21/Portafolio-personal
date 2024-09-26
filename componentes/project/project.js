@@ -29,7 +29,7 @@ function item(texto,github,web,stacks){
 
     let a = document.createElement('a');
     a.appendChild= "link-github-page";
-    a.href = "https://github.com/Rg4Pablo21/Formulario";
+    a.href = "https://github.com/Rg4Pablo21/Portafolio-personal";
     a.innerText = "githubPage";
     div.appendChild(a);
     
@@ -39,7 +39,7 @@ function item(texto,github,web,stacks){
 
     let btnGithub = document.createElement('a');
     btnGithub.className = "btn-github";
-    btnGithub.href = "https://github.com/Rg4Pablo21/Formulario";
+    btnGithub.href = "https://github.com/Rg4Pablo21/Portafolio-personal";
     btnGithub.innerText = "Github";
     div.appendChild(btnGithub);
 
