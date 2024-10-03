@@ -1,7 +1,7 @@
 .nav-bar {
     height: 100vh;
     border-right: 1px solid black;
-    width: 250px; /* Ancho fijo para el menú lateral */
+    width: 250px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -11,14 +11,14 @@
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem; /* Aumenta el espacio entre los elementos */
+    gap: 1.5rem; 
     align-items: flex-start;
     }
     
     .nav-bar-div .img-logo {
     width: 4rem;
-    height: 4rem; /* Altura para mantener proporción */
-    border-radius: 50%; /* Hacer la imagen circular */
+    height: 4rem; 
+    border-radius: 50%;
     }
     
     h2 {
@@ -26,7 +26,7 @@
     margin-bottom: 1rem;
     }
     
-    /* Sección de herramientas */
+   
     .tools-section {
     width: 100%;
     }
@@ -53,7 +53,7 @@
     box-sizing: border-box;
     }
     
-    /* Sección de contacto */
+  
     .contact-section {
     width: 100%;
     }
